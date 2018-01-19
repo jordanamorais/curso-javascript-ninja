@@ -15,7 +15,7 @@ and **arrays** ( [] ).
 
 > Objects:
 
-**OBS:** Objects are most faster than arrays. So, prefer use objects instead of arrays.
+**OBS:** Objects are faster than arrays. So, prefer use objects instead of arrays.
 
 ```js
 var person = {
