@@ -45,3 +45,33 @@ var numbers = [1, 2, 3, 4];
 numbers[0]; // = 1
 numbers[1]; // = 2
 ```
+
+### Operators
+
+```js
+var x = 0; // attribute value
+x == 0; // true
+1 == 1; // true
+1 != 2; // true
+2 != 2; // false
+```
+
+> Operators which test the Data Type too ( === ) and ( !== )
+
+**OBS:** This way is more safe to use. Always test types too.
+
+```js
+var one = '1'; // string
+var numberOne = 1; // number
+
+one == numberOne; // true, because JS Type Conversion. 1 == '1'.
+one === numberOne; // false, because you are comparing types too. One is string and the other one is number, which means, different types
+```
+
+The other operators: _>_, _<_ , _>=_, _<=_.
+Operator to invoke functions: ();
+
+### Functions
+
+* Function variables are scoped for its respective functions.
+* Functions must return something.
