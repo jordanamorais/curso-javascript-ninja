@@ -6,5 +6,6 @@ My notes about the course.
 
 > Notes Summary
 
-* [Class 1 | Variables, data types, operators and starting functions](classes/class-1.md)
-* [Class 2 | Variables, data types, operators and starting functions](classes/class-2.md)
+* [Part 1 | Variables, data types, operators and starting functions](classes/part-1.md)
+* [Part 2 | Lexical Structure and Conditionals](classes/part-2.md)
+* [Part 3 | Types](classes/part-3.md)
