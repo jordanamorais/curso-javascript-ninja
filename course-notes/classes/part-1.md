@@ -1,4 +1,4 @@
-## Class 1 Notes
+## Seção 1
 
 ### NodeJS
 
