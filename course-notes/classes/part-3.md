@@ -54,6 +54,8 @@ myVar();
 
 ### Aula 17 - Métodos de Objeto
 
+Métodos de objeto = funções como valor pra propriedades de um objeto.
+
 > Criar um nova propriedade pra um objeto
 
 ```JS
@@ -88,7 +90,9 @@ pessoa {
   nome: 'Joao',
   idade: 31,
   cor: 'caucasiano',
-  andar: [Function],
-  aniversario: [Function]
+  andar: [Function], // método
+  aniversario: [Function] // método
 }
 ```
+
+### Aula 18 - Métodos de Objeto
