@@ -31,3 +31,16 @@ false // O valor false também é false
 
 Javascript já faz conversão de tipos.
 
+### Aula 22 - Condicional Ternário
+
+```js
+var sexo = pessoa.sexo === 'Feminino' ? 'a' : 'o';
+```
+
+### Aula 23 - Escopo de variáveis
+
+* Escopo Global - Sempre fora de uma função. No geral, acaba sendo ruim pois insere muitas variáveis ou lixo na memória, utilizando muito recurso do seu computador.
+* Escopo Local - Dentro de funções. Recomendado utilizar sempre escopo local. Argumentos de funções são sempre locais também.
+* JS tem Garbage Collector, eliminando da memória o espaço que a variável de escopo local estava ocupando.
+* Caso se crie uma variável sem a palavra chave `var` essa variável será considerada como Global, mesmo se for definida dentro de uma `function()`.
+
