@@ -17,7 +17,7 @@ objeto.propriedade; // valor;
 objeto.propriedade2; // 10;
 ```
 
-> Exemplo, mais semântico:
+* Exemplo, mais semântico:
 
 ```JS
 var pessoa ={
@@ -29,3 +29,27 @@ var pessoa ={
 pessoa.nome; // Jordana;
 pessoa.altura; // 1.67;
 ```
+
+> Chamadas à funções
+
+Função nomeada
+
+```js
+function myFunction() {
+  return 'hello';
+}
+
+myFunction();
+```
+
+Função anônima atribuída a uma variável
+
+```js
+var myVar = function() {
+  return 'hello';
+}
+
+myVar();
+```
+
+### Aula 17 - Métodos de Objeto
