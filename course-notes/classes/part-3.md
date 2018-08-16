@@ -79,7 +79,7 @@ pessoa.andar();
 
 // Um novo método para incrementar a idade:
 pessoa.aniversario = function() {
-  pessoa.idade = pessoa.idade++;
+  pessoa.idade++;
 }
 
 // Quando invocado abaixo
