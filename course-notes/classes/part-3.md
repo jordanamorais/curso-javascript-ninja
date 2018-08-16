@@ -53,3 +53,42 @@ myVar();
 ```
 
 ### Aula 17 - Métodos de Objeto
+
+> Criar um nova propriedade pra um objeto
+
+```JS
+
+// Visto o seguinte objeto abaixo
+var pessoa = {
+  nome: 'Joao',
+  idade: 30,
+}
+
+// Para adicionar uma nova propriedade:
+pessoa.cor = 'caucasiano';
+
+// Nova propriedade que será um Método:
+pessoa.andar = function() {
+  ...
+}
+
+// Chamada, como método do objeto:
+pessoa.andar();
+
+// Um novo método para incrementar a idade:
+pessoa.aniversario = function() {
+  pessoa.idade = pessoa.idade++;
+}
+
+// Quando invocado abaixo
+pessoa.aniversario();
+
+// O objeto pessoa terá mudado (ex de visto no console do node)
+pessoa {
+  nome: 'Joao',
+  idade: 31,
+  cor: 'caucasiano',
+  andar: [Function],
+  aniversario: [Function]
+}
+```
