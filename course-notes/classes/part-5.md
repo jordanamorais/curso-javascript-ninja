@@ -38,3 +38,6 @@ myFunction().prop1; // 1
 
 var values = myFunction(); // Preenche o values como objetos, com os objetos retornados da função.
 ```
+
+
+
