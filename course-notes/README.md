@@ -10,3 +10,4 @@ My notes about the course.
 * [Part 2 | Lexical Structure and Conditionals](classes/part-2.md)
 * [Part 3 | Types](classes/part-3.md)
 * [Part 4 | Truthy e Falsy](classes/part-4.md)
+* [Part 5 | Return with arrays and objects ](classes/part-5.md)
